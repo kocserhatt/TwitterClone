@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:VT323;
+    background-color: #B8B8B8;
+
+    a{
+        text-decoration: none;
+    }
+}
+.container{
+    padding-inline: 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    h3{
+        font-size: 40px;
+    }
+}
+
+.rightNavbar{
+    display: flex;
+    gap: 20px;
+
+    img{
+        border-radius: 1px;
+        background: var(--Gray, #B8B8B8);
+        padding: 4px;
+        box-shadow: 2px 2px 1px 0px rgba(255, 255, 255, 0.50) inset, -2px -2px 1px 0px rgba(0, 0, 0, 0.80) inset;
+    }
+
+    button{
+        border: none;
+        background-color: #B8B8B8;
+        img{
+            padding: 10px;
+
+        }
+
+    }
+}
+
+.leftNavbar{
+    display: flex;
+    gap: 20px;
+}   
+
+#input-search{
+    border-radius: 5px;
+    border: none;
+}
+#form{
+    display: flex;
+    gap: 10px;
+}
+#formSearch{
+    display: flex;
+    gap: 10px;
+}
+
+
+.middle-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+}
+.card{
+    cursor: pointer;
+    width: 275px;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    color:#000;
+    font-feature-settings: 'liga' off;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 1px;
+    background: #B8B8B8;
+    box-shadow: 2px 2px 1px 0px rgba(255, 255, 255, 0.50) inset, -2px -2px 1px 0px rgba(0, 0, 0, 0.80) inset;
+}
+
+.tweetUser{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    p{
+        color: #797979;
+        font-feature-settings: 'liga' off;
+        font-family: VT323;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.allTweet{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.containerTweetUpdates{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.containerTweetUpdate{
+    padding-block:22px;
+    padding-inline: 20px;
+    border-radius: 1px;
+    background:#B8B8B8;
+    box-shadow: 2px 2px 1px 0px rgba(255, 255, 255, 0.50) inset, -2px -2px 1px 0px rgba(0, 0, 0, 0.80) inset;
+
+    button{
+        padding:10px;
+        margin-block: 10px;
+        border-radius: 1px;
+        background: #B8B8B8;
+        box-shadow: 2px 2px 1px 0px rgba(255, 255, 255, 0.50) inset, -2px -2px 1px 0px rgba(0, 0, 0, 0.80) inset;
+    }
+}
+.containerTweet{
+    padding-block:22px;
+    padding-inline: 20px;
+    border-radius: 1px;
+    background:#B8B8B8;
+    box-shadow: 2px 2px 1px 0px rgba(255, 255, 255, 0.50) inset, -2px -2px 1px 0px rgba(0, 0, 0, 0.80) inset;
+
+    button{
+        padding:10px;
+        margin-block: 10px;
+        border-radius: 1px;
+        background: #B8B8B8;
+        box-shadow: 2px 2px 1px 0px rgba(255, 255, 255, 0.50) inset, -2px -2px 1px 0px rgba(0, 0, 0, 0.80) inset;
+    }
+}
+#input-search{
+    padding: 10px;
+}
+#input-tweet{
+    padding: 10px;
+    width: 394px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    align-items: center;
+    img{
+        padding: 8px;
+        border-radius: 1px;
+        background: var(--Gray, #B8B8B8);
+        box-shadow: 2px 2px 1px 0px rgba(255, 255, 255, 0.50) inset, -2px -2px 1px 0px rgba(0, 0, 0, 0.80) inset;
+    }
+}
+
+.tweet-p{
+    color: #000;
+    font-feature-settings: 'liga' off;
+    font-family: VT323;
+    font-size: 16px;
+    font-weight: 400;
+    padding-block:10px;
+}
+
+.middle-container-right{
+    padding-block: 12px;
+    padding-inline: 12px;
+    border-radius: 1px;
+    background: var(--Gray, #B8B8B8);
+    box-shadow: 2px 2px 1px 0px rgba(255, 255, 255, 0.50) inset, -2px -2px 1px 0px rgba(0, 0, 0, 0.80) inset;
+
+    h3{
+        padding: 0px 167px 0px 0px;
+        color: var(--Dark, #000);
+        font-family: VT323;
+        font-size: 32px;
+        font-weight: 400;
+        }
+}
+
+
+.trends{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.trend{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lastContainer{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    /* justify-content: space-around; */
+    border-radius: 1px;
+    background: #B8B8B8;
+    box-shadow: 2px 2px 1px 0px rgba(255, 255, 255, 0.50) inset, -2px -2px 1px 0px rgba(0, 0, 0, 0.80) inset;
+
+    h3{
+        padding: 16px;
+        color: #000;
+        font-size: 32px;
+        font-weight: 400;
+    }
+}
+
+
+.follows{
+    display: flex;
+    gap: 15px;
+    padding: 16px;
+
+}
+.follow{
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+
+    button{
+        color: #110404;
+        font-feature-settings: 'liga' off;
+        font-size: 16px;
+        padding: 10px 16px;
+        font-weight: 400;
+        border-radius: 1px;
+        background: #B8B8B8;
+        box-shadow: 2px 2px 1px 0px rgba(255, 255, 255, 0.50) inset, -2px -2px 1px 0px rgba(0, 0, 0, 0.80) inset;
+    }
+}

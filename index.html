@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <script src="assets/js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="leftNavbar">
+                <img src="assets/image/logo.png" alt="">
+                <h3>HOMEPAGE</h3>
+            </div>
+            <div class="rightNavbar">
+                <img src="assets/image/Start (1).svg" alt="">
+                <form id="formSearch">
+                    <input id="input-search" type="text" placeholder="Search Twitter">
+                    <button type="submit"><img src="assets/image/search.svg"></button>
+                </form>
+            </div>
+        </div>
+        <div class="middle-container">
+            <div class="cards">
+                <div class="card">
+                    <img src="assets/image/home.svg">
+                    <h2>Home</h2>
+                </div>
+                <div class="card">
+                    <img src="assets/image/profile.svg">
+                    <h2>Profile</h2>
+                </div>
+                <div class="card">
+                    <img src="assets/image/discover.svg">
+                    <h2>Discover</h2>
+                </div>
+                <div class="card">
+                    <img src="assets/image/notifications.svg">
+                    <h2>Notifications</h2>
+                </div>
+                <div class="card">
+                    <img src="assets/image/message.svg">
+                    <h2>Messages</h2>
+                </div>
+                <div class="card">
+                    <img src="assets/image/bookmark.svg">
+                    <h2>Bookmarks</h2>
+                </div>
+                <div class="card">
+                    <img src="assets/image/lists.svg">
+                    <h2>Lists</h2>
+                </div>
+                <div class="card">
+                    <img src="assets/image/more.svg">
+                    <h2>More</h2>
+                </div>
+            </div>
+            <div class="allTweet">
+                <div class="containerTweet">
+                    <div class="tweetUser">
+                        <img src="assets/image/users1.svg">
+                        <p>@burak_öz</p>
+                    </div>
+                    <form id="form">
+                        <input name="comments" id="input-tweet" type="text" placeholder="send message">
+                        <button>Tweet</button>
+                    </form>
+                    <div class="buttons">
+                        <img src="assets/image/image.svg">
+                        <img src="assets/image/chart.svg">
+                        <img src="assets/image/emoji.svg">
+                        <img src="assets/image/time.svg">
+                        <img src="assets/image/location.svg">
+                    </div>
+                </div>
+                <div class="containerTweetUpdates">
+                   
+                </div>
+            </div>
+            <div class="middle-container-right">
+                <h3>Trends for you</h3>
+                <div class="trends">
+                    <div class="trend">
+                        <p>Football</p>
+                        <h2>Zinedine Zidane</h2>
+                        <p>10.2 B Tweet</p>
+                    </div>
+                    <div class="trend">
+                        <p>England</p>
+                        <h2>London</h2>
+                        <p>1.7 B Tweet</p>
+                    </div>
+                    <div class="trend">
+                        <p>Sport</p>
+                        <h2>Fenerbahçe</h2>
+                        <p>23 B Tweet</p>
+                    </div>
+                    <div class="trend">
+                        <p>Music</p>
+                        <h2>Metallica</h2>
+                        <p>176 B Tweet</p>
+                    </div>
+                    <div class="trend">
+                        <p>Series</p>
+                        <h2>Dawson’s Creek</h2>
+                        <p>2 B Tweet</p>
+                    </div>
+                    <div class="trend">
+                        <p>Education</p>
+                        <h2>Cambridge University</h2>
+                        <p>82.2 B Tweet</p>
+                    </div>
+                    <h3>Show more</h3>
+                </div>
+            </div>
+        </div>
+        <div class="lastContainer">
+            <h3>Who to follow</h3>
+            <div class="follows">
+                <div class="follow">
+                    <img src="assets/image/image 2.png" alt="">
+                    <div class="img-div">
+                        <h4>Adriano</h4>
+                        <p>@adriano7</p>
+                    </div>
+                    <button>Follow</button>
+                </div>
+                <div class="follow">
+                    <img src="assets/image/image 3.png" alt="">
+                    <div class="img-div">
+                        <h4>Kane’s Cat</h4>
+                        <p>@catcatcatkane</p>
+                    </div>
+                    <button>Follow</button>
+                </div>
+                <div class="follow">
+                    <img src="assets/image/image 5.png" alt="">
+                    <div class="img-div">
+                        <h4>Selina</h4>
+                        <p>@seljack</p>
+                    </div>
+                    <button>Follow</button>
+                </div>
+                <div class="follow">
+                    <img src="assets/image/image 2.png" alt="">
+                    <div class="img-div">
+                        <h4>Thomas</h4>
+                        <p>@thomasj</p>
+                    </div>
+                    <button>Follow</button>
+                </div>
+                <div class="follow">
+                    <img src="assets/image/image 6.png" alt="">
+                    <div class="img-div">
+                        <h4>Elly</h4>
+                        <p>@ellyntu</p>
+                    </div>
+                    <button>Follow</button>
+                </div>
+                <div class="follow">
+                    <img src="assets/image/users1.svg" alt="">
+                    <div class="img-div">
+                        <h4>Chris</h4>
+                        <p>@chris09</p>
+                    </div>
+                    <button>Follow</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
